@@ -1,11 +1,11 @@
 import {Routes, Route, createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Nav from "./components/Nav.tsx";
-import Home from "./components/Home.tsx";
-import Education from "./components/Education.tsx";
-import Work from "./components/Work.tsx";
-import Extracurriculars from "./components/Extracurriculars.tsx";
-import Skills from "./components/Skills.tsx";
-import Projects from './components/Projects.tsx';
+import Home from "./components/main/Home.tsx";
+import Education from "./components/main/Education.tsx";
+import Work from "./components/main/Work.tsx";
+import Extracurriculars from "./components/main/Extracurriculars.tsx";
+import Skills from "./components/main/Skills.tsx";
+import Projects from './components/main/Projects.tsx';
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import styled from "styled-components";

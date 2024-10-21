@@ -27,7 +27,7 @@ const initialState = {
     res: 0
 };
 
-function reducer(state, action) {
+function reducer(state: any, action: any) {
     switch (action.type) {
         case 'UPDATE_FIRST': 
             return {
